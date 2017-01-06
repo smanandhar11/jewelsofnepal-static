@@ -1,0 +1,69 @@
+.jonep-def-btn{
+    /*padding:12px 40px 12px 40px;*/
+    width:200px;
+    max-width: 200px;
+    min-width: 20px;
+    height:45px;
+    text-align: center;
+    border:2px solid rgb(23, 193, 253);
+    background:transparent;
+    text-transform: uppercase;
+    font-size:18px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    color:rgb(23, 193, 253);
+    transition:all 0.25s ease;
+    border-radius: 3px;
+}
+.jonep-def-btn:hover{
+    background-color: rgb(23, 193, 253);
+    border:2px solid #fff;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.jonep-def-btn:visited{
+    border:none;
+}
+
+/*jonep-def-button disabled*/
+
+.disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+    color:#444;
+}
+.disabled:hover{
+    background-color: inherit;
+    color:inherit;
+    border:2px solid #444;
+}
+/* full width btn */
+.full-width{
+    display: block;
+    width:100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+/* alternative Button */
+.alt{
+    border:2px solid rgb(255, 20, 85);
+    color:rgb(255, 20, 85);
+}
+.alt:hover{
+    background-color: rgb(255, 20, 85);
+}
+
+/*mobile full width */
+@media(max-width: 767px) {
+    .mobile-full {
+        display: block;
+        width:100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+/*with icon*/
+

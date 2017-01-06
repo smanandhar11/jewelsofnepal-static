@@ -1,0 +1,83 @@
+header{
+  /*margin-top: 15px;*/
+  /*margin-left:70px;*/background-color: #fff;
+,}
+header h1, .sticky-nav-logo h1{
+  font-family: 'Oleo Script', cursive;
+  font-size: 35px;
+  color:rgb(255, 20, 85);
+  margin:0;
+  margin-left:15px;
+  text-transform: none;
+
+}
+header img{
+  margin-left:60px;
+}
+.page-title a{
+  text-decoration: none;
+}
+header .sub-title{
+  font-family: 'Poiret One', cursive;
+  margin-top: 60px;
+}
+.head-logo{
+  margin-left:50px;
+  margin-top:10px;
+}
+
+
+/*Media Query fix for the logotitle to stay in one line*/
+@media (max-width: 1004px){
+  .head-logo{
+    width:30%;
+  }
+  .head-title{
+    width:70%;
+  }
+}
+
+@media (max-width: 832px){
+  .head-logo{
+    width:50%;
+  }
+  .head-title{
+    width:50%;
+  }
+}
+@media (max-width: 767px){
+  header .sub-title{
+    margin-top: 0;
+  }
+}
+
+/*Sticky Navigation*/
+.nav-scrolled{
+  top:0;
+  position: fixed;
+  z-index:2;
+  width:100%;
+}
+section{
+  padding-top:70px;
+}
+
+/*Stick Navigation logo and header*/
+.sticky-nav-logo{
+  display: none;
+  padding-top: 7px;
+  margin:0 auto;
+}
+.sticky-nav-logo img{
+  float:left;
+  width:3%;
+  margin-right:20px;
+}
+.sticky-nav-logo h1{
+
+}
+@media screen and (max-width: 793px ){
+  .sticky-nav-logo{
+    display: none;
+  }
+}

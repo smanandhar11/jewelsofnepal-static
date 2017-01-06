@@ -1,0 +1,49 @@
+.bp-body{
+	/*background: repeating-linear-gradient(*/
+  /*to right,*/
+  /*#f6ba52,*/
+  /*#f6ba52 10px,*/
+  /*#ffd180 10px,*/
+  /*#ffd180 20px*/
+	background-color: #ffffff;
+);
+
+}
+.bp-page-title{
+	margin-bottom: 25px;
+}
+.bp-h1{
+	font-family:'Poiret One', cursive;
+	font-weight: bold;
+	font-size:60px;
+}
+.bp-h3{
+	font-family:'Poiret One', cursive;
+	color:#dc143c;
+	font-weight: bold;
+}
+
+.bp-box{
+	border: 1px solid #47c9af;
+    padding: 35px;
+    background-color: #fbeaca;
+    margin-bottom: 20px;
+	border-radius: 4px;
+	margin-top: 5px;
+}
+.bp-box ul{
+	padding-left: 0;
+}
+.bp-box .color-display{
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	margin-left:5px;
+	vertical-align: middle;
+	border: 1px solid #444444;
+}
+.bp-element{
+	border-bottom: 1px solid #47c9af;
+}
+

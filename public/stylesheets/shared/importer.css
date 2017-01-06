@@ -1,0 +1,120 @@
+
+.all-buttons ul{
+	padding-left:0;
+	width: 277px;
+	/*height: 280px;*/
+}
+.all-buttons ul li  {
+	padding-bottom: 15px;
+}
+.all-buttons ul li input{
+	min-width: 220px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	box-shadow: 2px 2px 1px #777777;
+	border:none;
+	text-transform: uppercase;
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 15px;
+	color:#fff;
+	background-color:#c2b0f5;
+	text-align: left;
+	cursor: pointer;
+	height: 38px;
+	padding-left: 25px;
+}
+.all-buttons ul li:active{
+	border:none;
+}
+
+.all-buttons ul li .fa-bars, .fa-space-shuttle {
+	margin-left: -20px;
+	cursor: pointer;
+}
+.fa-bars{
+	color:#fff;
+}
+
+.menu-list{
+	/*display: none;*/
+	position: absolute;
+    background: #e0d7fa;
+    width: 203px;
+    height: 226px;
+    margin-top: -43px;
+    padding-left: 5px;
+    
+}
+.menu-list li{
+	font-family: Raleway;
+	text-transform: uppercase;
+	border-bottom: 2px solid #ffffff;
+	margin-bottom: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	color:#fff;
+}
+.menu-list li:hover{
+	background: #000000; 
+  background: -webkit-linear-gradient(top left, #ffffff, #000000);
+  background: -o-linear-gradient(top right, #ffffff, #664200); 
+  background: -moz-linear-gradient(bottom left,#ffc04c, #7f5200);
+  background: linear-gradient(to bottom right, #ffc04c, #996300); 
+}
+
+
+/*.type{*/
+	/*display: none;*/
+/*}*/
+/*.random{*/
+	/*display: block;*/
+/*}*/
+/*.menu-list .color: {
+	margin-top: 106px; 
+}
+.menu-list .price{
+	margin-top: 182px; 
+}*/
+
+
+.btn-type{
+	cursor: pointer;
+}
+.menu-list li:first-child{
+	padding-top: 10px;
+	
+}
+.menu-list li:nth-child(1), .menu-list li:nth-child(2), .menu-list li:nth-child(3), .menu-list li:nth-child(4), .menu-list li:nth-child(5){
+	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-left: 25px;
+	
+}
+.graident-back{
+	background: linear-gradient(to bottom right, #ffc04c, #996300);
+}
+
+
+/*Left side of the page*/
+
+.line-1 .img-responsive{
+	    min-height: 262px;
+    max-height: 337px;
+        max-width: 378px;
+}
+.line-1{
+	margin-bottom: 25px;
+}
+
+.line-1 img{
+	/*box-shadow: 10px 10px 5px #888888;*/
+	border-radius: 9px;
+}
+
+
+/*For the dark background*/
+
+.dark-theme{
+	background-image: url('../images/jon-gall-bg.jpg');
+}

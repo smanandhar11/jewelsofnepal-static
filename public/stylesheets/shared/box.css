@@ -1,0 +1,115 @@
+
+.box{
+    padding: 10px 15px 10px;
+    margin: 20px 0 10px 0;
+    background-color: #f1f1f1;
+    box-shadow: 10px 10px 12px #637773;
+}
+.box p{
+    padding-bottom: 25px;
+}
+.box h2{
+    padding-bottom:10px;
+}
+.welcome-box{
+    padding: 10px 15px 60px;
+    /*margin: 20px 0 10px 0;*/
+    /*background-color: #f1f1f1;*/
+    /*box-shadow: 10px 10px 12px #637773;*/
+}
+.welcome-box h2{
+    color:rgb(23, 193, 253);
+    /*padding-bottom: 10px;*/
+}
+.welcome-box a{
+    float:right;
+}
+.promo-box{
+    background-image: url("/images/fb-images/promotion1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    box-shadow: 10px 10px 12px #637773;
+    height: 694px;
+    background-color: transparent;
+
+}
+.promo-deal{
+    background-color: transparent;
+    float: right;
+    padding-right: 0;
+    margin-top: 212px;
+}
+.promo-deal h2{
+    font-family: 'Abril Fatface', cursive;
+    color:rgb(255, 178, 46);
+    font-weight: bold;
+    padding-right:0;
+}
+.promo-deal p{
+    float: right;
+    color: #fff;
+    font-size: 20px;
+}
+
+/*promo media query*/
+@media screen and (max-width: 1199px ){
+    .promo-box{
+        height: 572px;
+    }
+}
+
+@media screen and (max-width: 991px ){
+    .promo-deal{
+        margin-top:40px;
+    }
+    .promo-box{
+        height: 438px;
+    }
+}
+@media screen and (max-width: 767px ){
+    .promo-box{
+        height:416px ;
+    }
+   .promo-deal a{
+       float: right;
+   }
+    .promo-deal a input{
+        margin-top:-100px;
+        margin-right: 20px;
+    }
+    .promo-deal p{
+        font-size:15px;
+    }
+    .promo-deal {
+        margin-top: 287px;
+    }
+    .box h2, .box p{
+        padding-bottom: 0;
+    }
+
+}
+@media screen and (max-width: 702px ){
+    .promo-box{
+        height:399px ;
+    }
+}
+
+
+.for-article{
+    background-color:rgb(255, 178, 46);
+}
+/*//box with drop shadow//*/
+.box-drop-shadow{
+    box-shadow: 1px 2px 2px 1px #ccc;
+}
+/*bor with border top*/
+.box-top-border{
+    border-top:2px solid #47c9af;
+    box-shadow: 1px 2px 2px 1px #ccc;
+}
+.box-top-bottom-border{
+    border-bottom:2px solid #47c9af;
+    border-top:2px solid #47c9af;
+    box-shadow: 1px 2px 2px 1px #ccc;
+}

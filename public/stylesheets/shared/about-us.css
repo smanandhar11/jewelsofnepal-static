@@ -1,0 +1,9 @@
+.backdrop-about-us{
+    background-image: url(/images/backdrop-about-us.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 43%;
+    margin-top: -70px;
+}
+

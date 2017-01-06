@@ -1,0 +1,21 @@
+<html>
+<head>
+    <% include ../templates/head.ejs%>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title><%= title %></title>
+</head>
+
+<% include ../templates/header.ejs%>
+<% include ../templates/navigation/navigation-gallery.ejs%>
+<% include _gallery.ejs %>
+<% include ../templates/footer.ejs%>
+<% include ../templates/scripts.ejs%>
+
+<script src="/javascripts/filter.js"></script>
+<script>
+    $( function() {
+        $( "#drag" ).draggable();
+    } );
+</script>
+</body>
+</html>

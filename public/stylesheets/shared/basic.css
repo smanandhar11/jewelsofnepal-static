@@ -1,0 +1,70 @@
+/*Online font decleration*/
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(https://fonts.googleapis.com/css?family=Antic+Slab);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+
+body{
+	background-color: #f7f7f7;
+	color:#444444;
+	font-family: monospace, serif;
+	font-size: 16px;
+    font-weight: normal;
+}
+/*adjusting to browser default for links to not have underlines*/
+a:active, a:focus, a:hover{
+	text-decoration: none;
+}
+/*Headers Start*/
+h1, h2, h3, h4, h4, h6{
+	font-family:'Poiret One', cursive; 
+	color: #444444;
+}
+h1{
+	font-size: 48px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 35px;
+}
+h3{
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: none;
+}
+h4{
+	font-size: 18px;
+	text-transform: none;
+	font-weight: bold;
+}
+/*Headers Ends*/
+
+ul{
+	list-style: none;
+}
+/*little container can be used in place of bootstrap container*/
+.little-container{
+	margin-left:60px;
+	margin-right:60px;
+}
+/*width ajustment for bootstrap class*/
+.width-adjust{
+	width:100%;
+}
+/*Images*/
+.img-responsive{
+	width:100%;
+	min-height: 500px;
+	max-height: 500px;
+}
+
+
+
+
+
